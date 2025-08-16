@@ -57,7 +57,7 @@ Database: All challans are saved in traffic.db.
 ## 📸 Screenshots
 
 ### Main Interface
-![Chatbot Screenshot 1](URL-of-screenshot-1)
+![Chatbot Screenshot 1](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
 
 ### Chat Window Open
 ![Chatbot Screenshot 2](URL-of-screenshot-2)
