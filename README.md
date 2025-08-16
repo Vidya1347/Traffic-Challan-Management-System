@@ -54,18 +54,7 @@ Drivers: Log in to view your challans and their statuses.
 
 Database: All challans are saved in traffic.db.
 ## 📸 Screenshots
-![Real-Time-Email-Sentiment-Analyzer_1]<img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/12b8c14c-d150-42d6-81e0-fdd589057c9a" />
-
-
-![Real-Time-Email-Sentiment-Analyzer_1](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img1.png)
-
-![Real-Time-Email-Sentiment-Analyzer_2](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
-
-
-![Real-Time-Email-Sentiment-Analyzer_3](img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/12b8c14c-d150-42d6-81e0-fdd589057c9a" /)
-git add README.md
-git commit -m "Fix screenshot links with GitHub raw URLs"
-git push## 📸 Screenshots
+## 📸 Screenshots
 
 ### 1. Main Login Page  
 ![Main Login Page](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
@@ -81,8 +70,5 @@ git push## 📸 Screenshots
 
 ### 5. Police Dashboard  
 ![Police Dashboard](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img5.png?raw=true)
-git add README.md
-git commit -m "Fix screenshots in README"
-git push
 
 
