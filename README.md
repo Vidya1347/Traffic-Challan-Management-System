@@ -53,15 +53,16 @@ Police: Log in using credentials to issue or modify challans.
 Drivers: Log in to view your challans and their statuses.
 
 Database: All challans are saved in traffic.db.
-📸 Screenshot Gallery
-1. Main Login Page
-<img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/fbd50926-8dbc-43d8-8c06-497228ec9820" />
+## 📸 Screenshots
 
 
-2. Driver Login
+![Real-Time-Email-Sentiment-Analyzer_1](https://github.com/Vidya1347/Real-Time-Email-Sentiment-Analyzer-ML-NLP/blob/main/Screenshot%202025-08-05%20212205.png?raw=true)
 
-3. Police Login
+![Real-Time-Email-Sentiment-Analyzer_2](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
 
-4. Driver Dashboard
 
-5. Police Dashboard
+![Real-Time-Email-Sentiment-Analyzer_3]()
+git add README.md
+git commit -m "Fix screenshot links with GitHub raw URLs"
+git push
+
