@@ -54,7 +54,7 @@ Drivers: Log in to view your challans and their statuses.
 
 Database: All challans are saved in traffic.db.
 ## 📸 Screenshots
-<img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/12b8c14c-d150-42d6-81e0-fdd589057c9a" />
+![Real-Time-Email-Sentiment-Analyzer_1]<img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/12b8c14c-d150-42d6-81e0-fdd589057c9a" />
 
 
 ![Real-Time-Email-Sentiment-Analyzer_1](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img1.png)
