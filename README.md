@@ -70,5 +70,3 @@ Database: All challans are saved in traffic.db.
 
 ### 5. Police Dashboard
 ![Police Dashboard](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img5.png)
-
-
