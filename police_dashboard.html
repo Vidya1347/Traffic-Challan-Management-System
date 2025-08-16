@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Police Dashboard</title>
+</head>
+<body>
+<h1>Police Dashboard</h1>
+
+<input id="vehicleInput" placeholder="Vehicle Number">
+<input id="fineInput" type="number" placeholder="Fine Amount">
+<select id="offenceSelect">
+  <option value="">Select Offence</option>
+  <option value="Speeding">Speeding</option>
+  <option value="Reckless Driving">Reckless Driving</option>
+  <option value="Parking Violation">Parking Violation</option>
+</select>
+<button onclick="addFine()">Add Fine</button>
+
+<script>
+function addFine(){
+  const vehicle = document.getElementById('vehicleInput').value.trim();
+  const fine = document.getElementById('fineInput').value.trim();
+  const offence = document.getElementById('offenceSelect').value;
+
+  if(!vehicle || !fine || !offence){
+    alert('Fill all fields'); return;
+  }
+
+  fetch('http://localhost:3000/fines',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({vehicle,fine,offence})
+  }).then(res=>res.json()).then(data=>{
+    if(data.success) alert('Fine added successfully');
+    else alert('Error adding fine');
+  });
+}
+</script>
+</body>
+</html>
+

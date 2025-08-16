@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Traffic Challan System</title>
+</head>
+<body>
+<h1>Traffic Challan Management System</h1>
+
+<h2>Police Login</h2>
+<input id="policeUsername" placeholder="Username">
+<input id="policePassword" type="password" placeholder="Password">
+<button onclick="policeLogin()">Login</button>
+
+<h2>Driver Login</h2>
+<input id="vehicleNumber" placeholder="Vehicle Number">
+<button onclick="driverLogin()">Login</button>
+
+<script>
+function policeLogin(){
+  const username = document.getElementById('policeUsername').value;
+  const password = document.getElementById('policePassword').value;
+
+  fetch('http://localhost:3000/police/login',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({username,password})
+  }).then(res=>res.json()).then(data=>{
+    if(data.success) window.location.href='police_dashboard.html';
+    else alert('Invalid credentials');
+  });
+}
+
+function driverLogin(){
+  const vehicle = document.getElementById('vehicleNumber').value.trim();
+  if(vehicle){
+    localStorage.setItem('vehicleNumber', vehicle.toUpperCase());
+    window.location.href='driver_dashboard.html';
+  } else alert('Enter vehicle number');
+}
+</script>
+</body>
+</html>

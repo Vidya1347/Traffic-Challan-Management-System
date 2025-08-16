@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Driver Dashboard</title>
+<style>
+  body { font-family: Garamond, serif; text-align: center; background-color: #add8e6; }
+  #finesList { margin-top: 20px; }
+</style>
+</head>
+<body>
+<h1>Driver Dashboard</h1>
+<div id="finesList">Loading fines...</div>
+
+<script>
+const vehicle = localStorage.getItem('vehicleNumber');
+const finesDiv = document.getElementById('finesList');
+
+if(!vehicle){
+    finesDiv.innerHTML = "<p>Please login first</p>";
+} else {
+    fetch(`http://localhost:3000/fines/${vehicle.toUpperCase()}`)
+    .then(res => res.json())
+    .then(fines => {
+        finesDiv.innerHTML = ""; // clear "Loading fines..."
+        if(fines.length){
+            fines.forEach(f => {
+                finesDiv.innerHTML += `<p>Vehicle: ${f.vehicle} | Fine: Rs.${f.fine} | Offence: ${f.offence}</p>`;
+            });
+        } else {
+            finesDiv.innerHTML = "<p>No fines found for your vehicle</p>";
+        }
+    })
+    .catch(err => {
+        finesDiv.innerHTML = "<p>Error fetching fines. Check backend is running.</p>";
+        console.error(err);
+    });
+}
+</script>
+</body>
+</html>
