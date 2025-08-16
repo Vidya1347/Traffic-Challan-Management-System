@@ -56,11 +56,8 @@ Database: All challans are saved in traffic.db.
 
 ## 📸 Screenshots
 
-![Main Interface](images/img1.png)
-
-
-### Chat Window Open
-![Chatbot Screenshot 2](URL-of-screenshot-2)
-
-### FAQ Options
-![Chatbot Screenshot 3](URL-of-screenshot-3)
+![Main Interface](img1.png)
+![Chat Window Open](img2.png)
+![FAQ Options](img3.png)
+![Example Screen 4](img4.png)
+![Example Screen 5](img5.png)
