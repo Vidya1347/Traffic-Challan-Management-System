@@ -54,10 +54,20 @@ Drivers: Log in to view your challans and their statuses.
 
 Database: All challans are saved in traffic.db.
 
-## 📸 Screenshots
+##  Screenshots
 
-![Main Interface]("https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/Screenshot%202025-08-16%20174148.png?raw=true")
-![Chat Window Open]("https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/Screenshot%202025-08-16%20174148.png")
-![FAQ Options](img3.png)
-![Example Screen 4](img4.png)
-![Example Screen 5](img5.png)
+### 1. Login / Home Page
+![Login Page]("https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/Screenshot%202025-08-16%20174148.png")
+
+### 2. Driver Dashboard
+![Driver Dashboard](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/Screenshot%202025-08-16%20174202.png)
+
+### 3. Police Login
+![Police Login](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/Screenshot%202025-08-16%20174209.png)
+
+### 4. Police Dashboard
+![Police Dashboard](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/Screenshot%202025-08-16%20174222.png)
+
+### 5. Challan Management View
+![Challan Management](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/Screenshot%202025-08-16%20174229.png)
+
