@@ -56,7 +56,7 @@ Database: All challans are saved in traffic.db.
 ## 📸 Screenshots
 
 
-![Real-Time-Email-Sentiment-Analyzer_1](https://github.com/Vidya1347/Real-Time-Email-Sentiment-Analyzer-ML-NLP/blob/main/Screenshot%202025-08-05%20212205.png?raw=true)
+![Real-Time-Email-Sentiment-Analyzer_1]()
 
 ![Real-Time-Email-Sentiment-Analyzer_2](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
 
