@@ -55,6 +55,7 @@ Drivers: Log in to view your challans and their statuses.
 Database: All challans are saved in traffic.db.
 📸 Screenshot Gallery
 1. Main Login Page
+<img width="842" height="469" alt="image" src="https://github.com/user-attachments/assets/fbd50926-8dbc-43d8-8c06-497228ec9820" />
 
 
 2. Driver Login
