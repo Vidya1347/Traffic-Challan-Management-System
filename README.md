@@ -56,19 +56,19 @@ Database: All challans are saved in traffic.db.
 ## 📸 Screenshots
 ## 📸 Screenshots
 
-### 1. Main Login Page  
-![Main Login Page](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img1.png?raw=true)
+### 1. Main Login Page
+![Login Page](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img1.png)
 
-### 2. Driver Login  
-![Driver Login](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img2.png?raw=true)
+### 2. Driver Login
+![Driver Login](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img2.png)
 
-### 3. Police Login  
-![Police Login](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img3.png?raw=true)
+### 3. Police Login
+![Police Login](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img3.png)
 
-### 4. Driver Dashboard  
-![Driver Dashboard](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img4.png?raw=true)
+### 4. Driver Dashboard
+![Driver Dashboard](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img4.png)
 
-### 5. Police Dashboard  
-![Police Dashboard](https://github.com/Vidya1347/Traffic-Challan-Management-System/blob/main/img5.png?raw=true)
+### 5. Police Dashboard
+![Police Dashboard](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/refs/heads/main/img5.png)
 
 
