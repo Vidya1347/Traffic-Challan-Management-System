@@ -53,8 +53,6 @@ Police: Log in using credentials to issue or modify challans.
 Drivers: Log in to view your challans and their statuses.
 
 Database: All challans are saved in traffic.db.
-## 📸 Screenshots
-## 📸 Screenshots
 
 ### Main Login Page
 ![Login Page](https://raw.githubusercontent.com/Vidya1347/Traffic-Challan-Management-System/main/img1.png)
